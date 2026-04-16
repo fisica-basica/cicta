@@ -1,0 +1,289 @@
+.rodape{
+    background-color: #0a8ad4;
+    color: white;
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    font-family: helvetica;
+}
+.rodape a{
+    text-decoration: none;
+    color: white;
+}
+.rodape p{
+    margin-bottom: 5px;
+}
+.rodape-div{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+}
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+.rodape span{
+    font-size: 20px;
+    color: white;
+}
+.rodape-direitos{
+    width: calc(100% - 20px);
+    background-color: black;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+/*mobile*/
+@media (max-width: 768px) {
+    .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+        width: calc(50% - 20px);
+        padding: 10px;
+    }
+    .rodape-div{
+        padding: 60px 0px 40px 0px;
+    }
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between; /* Distribui as colunas */
+    align-items: center; /* Alinha verticalmente */
+    padding: 10px;
+    background-color: #f4f4f4;
+    color: red;
+}
+
+.coluna {
+    flex: 1; /* Faz as colunas terem tamanhos iguais */
+    text-align: center;
+}
+
+/* Opcional: Alinhamentos específicos */
+.coluna:first-child { text-align: left; }
+.coluna:last-child { text-align: right; }
+
+.whiteCaption {
+    font-style: italic;
+    color: white;
+    text-align: center; 
+    display:table-row;
+}
+
+.divcentroBlackBorder {background-color:black;
+  margin-right: 400px;
+  margin-left: 400px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid #000; /* Adiciona uma borda preta */
+}
+
+ul.lista-espacada li {
+    margin-bottom: 15px; /* Adiciona espaço abaixo de cada item */
+    margin-left: 100px;
+    margin-right: 100px;
+
+  }
+
+.imagem-com-espaco {
+    margin: 20px; /* Espaço fora da imagem (top, right, bottom, left) */
+    padding: 10px; /* Espaço dentro da imagem (se houver borda/fundo) */
+    border: 1px solid #ccc; /* Apenas para visualizar o padding */
+  }
+
+.divcentro {
+  display: flex;
+  justify-content: center;
+}
+
+.imgcentro {
+  width: 100%;
+}
+
+table {
+    border-collapse: collapse; /* Removes space between borders */
+    width: 100%;
+  
+  td {
+    border: 5px solid rgb(255, 255, 255); /* Adds a border for visibility */
+    border-radius: 15px;/* Arredonda todos os cantos da tabela */
+    padding: 10px;
+    text-align: center; /* Centers images within cells */
+  }
+
+  img {
+    width: 150px; /* Sets a consistent width for images */
+    height: auto; /* Maintains the image's aspect ratio */
+    display: block; /* Helps with centering and sizing */
+    margin: 0 auto; /* Centers the image horizontally */
+  }
+
+  a {
+      text-decoration: none; /* Removes the default underline from the link */
+  }
+  
+}
+
+table td:hover{
+    background-color: #70a1ec6c;
+}
+
+.azul_centro {
+    color: blue;
+    text-align: center;
+}
+
+.margin100 {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.unidade_centro {
+    text-align: center;
+}
+
+.header-container {
+    display: flex; /* Enables flexbox layout for children */
+    align-items: center; /* Vertically aligns items to the middle */
+    gap: 20px; /* Adds space between the figure and the h1 */
+    border: 2px solid lightgray;
+    padding: 10px;
+    color: red;
+    background-color: #f4f4f4;
+}
+
+.small-logo {
+    margin-left: 60px;
+    width: 150px; /* Adjust the size of the image as needed */
+    height: auto;
+}
+
+/* Optional: remove default margins from the h1 for tighter control */
+.header-container h1 {
+    margin: 0;
+}
+
+.caption {
+    font-style: italic;
+    color: #555;
+    text-align: center; 
+    display:table-row;
+}
+
+.captionComentario {
+    color: blue;
+    text-align: center; 
+    display:table-row;
+}
+
+body {
+    margin: 0px; 
+}
+
+.centralizado {
+    text-align: center;
+    border: 2px solid lightgray;
+    padding: 10px;
+    color: red
+}
+
+.ul_centr {
+    text-align: center; /* Centraliza o conteúdo dentro de cada <li> */
+  }
+
+.li_centr {
+    display: inline-block; /* Faz com que os itens fiquem na mesma linha */
+    margin: 0 10px; /* Adiciona um espaço entre os itens */
+  }
+
+main{
+    margin-left:20px;
+    margin-right:20px;        
+}
+
+.container-imagens {
+  display: flex; /* Coloca as imagens lado a lado */
+  gap: 10px; /* Opcional: adiciona um espaço entre as imagens */
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(14, 147, 236);
+    padding: 0px;
+    margin: 0px;    
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(28, 32, 100);
+}
+
+.navbar2 ul{
+    list-style-type: none;
+    background-color: rgb(14, 147, 236);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden
+}
+.navbar2 a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    border-radius: 25px;
+    border-width: 1px;
+    border-style: solid;
+    }
+.navbar2 a:hover{
+    background-color: rgb(28, 32, 100);
+}
+.navbar2 li{
+    float: left;
+    margin: 5px;    
+}
+
+.navbar3 ul{
+    list-style-type: none;
+    background-color: rgb(14, 147, 236);
+    padding: 0px;
+    margin-left: 300px;
+    margin-right: 300px;
+    overflow: hidden
+}
+.navbar3 a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    border-radius: 25px;
+    border-width: 1px;
+    border-style: solid;
+    }
+.navbar3 a:hover{
+    background-color: rgb(28, 32, 100);
+}
+.navbar3 li{
+    float: left;
+    margin: 5px;    
+}
+
+.azul {color: blue
+}
+
+.azul_centro {
+    color: blue;
+    text-align: center;
+}
+
+.verm {color: red
+} 
