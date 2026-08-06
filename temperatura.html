@@ -59,22 +59,64 @@
     <p class="margin100">
       Nos casos mais simples e comuns, a temperatura de um corpo está diretamente relacionada à 
       <b><span style="color: #FF0000;">energia cinética média</span></b> das partículas deste corpo, 
-      desde que estas energias <i>não dependam de observadores externos ao corpo</i>.  Para entender melhor este ponto, considere inicialmente
-      a expressão <i>mgh</i>, da energia potencial gravitacional de um corpo. Esta energia depende do valor de <i>g</i> e de <i>h</i>, que 
-      são fatores <i>externos</i> ao corpo. Considere agora uma bola em movimento de translação com velocidade de módulo \( v^2 \). 
-      Todas as partículas da bola possuem uma parcela de energia cinética escrita na forma \( v^2 \)
+      desde que estas energias <i>não dependam de fatores (ou observadores) externos ao corpo</i>.  Para entender melhor este ponto, considere inicialmente
+      a expressão \( mgh \), da energia potencial gravitacional de um corpo (próximo à superfície terrestre). Esta energia depende do valor de \( g \) 
+      (módulo da aceleração gravitacional) e de \( h \) (altura do corpo em relação a um nível de referência), que são fatores <i>externos</i> ao corpo. 
+      Considere agora uma caixa em movimento de translação com velocidade de módulo \( v \), como mostra a animação abaixo
+      (você pode clicar na animação para acessar a simulação PHET completa):
     </p>
-
-
+               
+    <div class="divcentro">
+        <figure>
+          <a href="https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_all.html" target="_blank" rel="noopener noreferrer">
+          <video style=width:400px; autoplay muted loop>
+          <source src="https://raw.githubusercontent.com/fisica-basica/cicta/videos/caixaAndando.mp4" type="video/mp4" />
+          O seu navegador não suporta a tag de vídeo
+          </video>
+          </a>
+          <figcaption class="caption" style="display:block; margin:auto;width: 400px;">PhET Interactive Simulations, University of Colorado Boulder, licensed under CC-BY-4.0 (https://phet.colorado.edu).
+          </figcaption>
+        </figure>
+    </div>
 
     <p class="margin100">
-      É importante ter em mente três fatos importantes: 
+      Todas as partículas da caixa possuem uma parcela de energia cinética que pode ser escrita na forma \( mv^2/2 \), onde \( m \) é a massa de uma dada partícula.
+      Devemos notar que a velocidade \( v \) (de 7 m/s, na animação acima) é medida por um observador <i>externo</i> à caixa. 
+      Portanto, a energia cinética da forma \( mv^2/2 \) não contribui para a temperatura da caixa. 
+    </p>
+
+    <p class="margin100">
+      Por outro lado, podemos imaginar que as partículas que compõem a caixa (átomos e moléculas) não estão rígidas, em uma estrutura fixa como a de um cristal,
+      mas estão vibrando em torno de posições de equilíbrio (no caso de um gás, por exemplo, as partículas possuem outros movimentos, como veremos mais adiante).
+      A situação é ilustrada na simulação abaixo, que mostra "átomos" vibrando em torno de posições de equilíbrio dentro de uma "caixa" plana (um quadrado, 
+      para facilitar a visualização). Você pode clicar na animação para acessar a simulação PHET completa:
+    </p>
+
+    <div class="divcentro">
+        <figure>
+          <a href="https://phet.colorado.edu/sims/html/normal-modes/latest/normal-modes_all.html" target="_blank" rel="noopener noreferrer">
+          <video style=width:400px; autoplay muted loop>
+          <source src="https://raw.githubusercontent.com/fisica-basica/cicta/videos/normalModes1.mp4" type="video/mp4" />
+          O seu navegador não suporta a tag de vídeo
+          </video>
+          </a>
+          <figcaption class="caption" style="display:block; margin:auto;width: 400px;">PhET Interactive Simulations, University of Colorado Boulder, licensed under CC-BY-4.0 (https://phet.colorado.edu).
+          </figcaption>
+        </figure>
+    </div>
+
+    <p class="margin100">
+      As energias cinéticas de vibração destas partículas não dependem de um observador externo à "caixa" e, portanto, influenciam em sua temperatura.
+    </p>
+
+    <p class="margin100">
+      É importante ter em mente alguns fatos importantes relacionados à temperatura: 
     </p>
 
       <ul class="lista-espacada">
         <li> A temperatura não é uma medida da energia cinética total nem da energia cinética média por partícula, mas está <b>relacionada</b> a
           esta última (em casos mais simples, estas duas quantidades podem ser diretamente proporcionais entre si). 
-          Temperatura e energia são medidas em unidades diferentes. 
+          Temperatura e energia são grandezas diferentes entre si e medidas em unidades físicas diferentes. 
           
           <p>
           Para entender melhor este ponto, pense em um telhado composto por várias telhas idênticas, expostas ao sol: 
@@ -83,26 +125,42 @@
           Já a energia térmica média por telha (energia térmica total dividida pelo número de telhas) é constante, sendo  
           a mesma para todas as telhas.  Analogamente, a temperatura do telhado não depende do número de telhas e é 
           a mesma para cada uma das telhas, em um dado instante. Esta temperatura pode ser relacionada à energia <i>média</i> por telha, mas não  
-          podemos dizer que a temperatura de uma telha seja a sua energia térmica média.
+          podemos dizer que a temperatura de uma telha seja igual à sua energia térmica média.
           </p>
         </li>
 
         <li> A energia cinética associada à temperatura não se restringe apenas ao movimento de translação das partículas, mas também inclui, dentre outras, 
-          a energia associada à vibração e rotação das partículas, por exemplo. Quanto maiores estes valores de energia (por parícula), maior será a temperatura do corpo
+          a energia associada à vibração e rotação das partículas, por exemplo, como veremos mais adiante. 
+          Quanto maiores estes valores de energia (por parícula), maior será a temperatura do corpo, desde que estas energias não dependam de obervadores 
+          externos ao corpo. No restante deste material, ao falarmos de energias envolvidas com a temperatura de um corpo, 
+          estará implícito de que estamos considerando um referencial (observador) para o qual o corpo está em repouso.
+        </li>
+
+        <li> Além de energias cinéticas (de translação, rotação ou vibração), a temperatura pode ser associada a outros tipos de energias. 
+          Como exemplo, podemos citar energias potenciais elásticas (classicamente escritas na forma \( kx^2/2 \) ). De forma mais geral, podemos dizer que 
+          termos <i>quadráticos</i> de energia (proporcionais a quantidades como \( x^2 \) ou \( v^2 \) ) contribuem para a temperatura de um corpo.
+          No entanto, este tópico está acima das pretensões deste texto e não nos deteremos nestes aspectos.
+        </li>
+
+        <li> A temperatura de um corpo pode ser associada à <i>energia interna</i> de um corpo. O conceito de energia interna e sua relação com a temperatura 
+          será visto em outra parte deste material.          
         </li>
 
         <li> A temperatura não é uma medida de <a href="https://www.todamateria.com.br/calor-e-temperatura/" target="_blank" rel="noopener noreferrer">calor</a> (este sim, uma forma de energia e medido em unidades de energia), 
-          mas a diferença de temperatura entre dois corpos é a responsável pela transferência de energia em forma de calor entre estes corpos.
+          mas a diferença de temperatura entre dois corpos é a responsável pela transferência de energia em forma de calor entre estes corpos. O calor transferido
+          para um corpo pode aumentar a temperatura deste corpo, mas também pode ser utilizado, pelo corpo, para realizar trabalho (como veremos em outras partes
+          deste material).
         </li>
       </ul>      
     
 
     <p class="margin100">
-      Na simulação PHET abaixo, vemos a relação entre a temperatura na interface entre dois livros e o grau de agitação (vibração) das partículas (átomos e moléculas) dos livros. 
-      Como se tratam de sólidos, as partículas estão organizadas em estruturas rígidas, e apenas vibram em torno de suas posições de equilíbrio.
-      Para aumentar a temperatura, você pode "esfregar" um livro contra o outro. Ao fazer isso, você está transferindo energia para os livros (em forma de trabalho) 
+      Na simulação PHET abaixo, vemos a relação entre a temperatura (indicada no termomêtro) na interface entre dois livros e o grau de agitação (vibração) das partículas (átomos e moléculas) dos livros. 
+      Como se tratam de sólidos, as partículas estão organizadas em estruturas rígidas, e apenas vibram em torno de suas posições de equilíbrio, 
+      como mostrado na simulação anterior.
+      Para aumentar a temperatura, você pode "esfregar" um livro contra o outro usando o mouse. Ao fazer isso, você está transferindo energia para os livros (em forma de trabalho) 
       e as partículas dos livros passam a vibrar mais intensamente após receberem esta energia. O aumento da vibração é associado ao aumento da temperatura
-      (quanto maior a temperatura, maior é a agitação das partículas e vice-versa). Quando você para de atritar os livros, a temperatura diminui e a agitação das partículas também diminui, porque os livros perdem energia (em forma de calor)
+      (quanto maior a temperatura, maior é a agitação das partículas e vice-versa, conforme mostrado na simulação). Quando você para de atritar os livros, a temperatura diminui e a agitação das partículas também diminui, porque os livros perdem energia (em forma de calor)
       para o meio ambiente, que está em uma temperatura menor.
     </p>
     
@@ -157,30 +215,31 @@
   </section>
 
   <section>
-    <h3 class="unidade_centro">Medindo a temperatura:</h3>
+    <h3 class="azul_centro">Medindo a temperatura:</h3>
       
     <p class="margin100">
       Sabemos experimentalmente que praticamente todos os corpos se expandem quando aquecidos e se contraem quando resfriados. 
       Esta expansão ou contração é causada pelo aumento ou diminuição da agitação (vibração) e/ou translação das partículas do corpo, que por sua vez, está relacionada à temperatura do corpo, como vimos acima.
-      Como exemplo, vemos abaixo a expansão que uma moeda sofre ao ser aquecida:
+      Como exemplo, vemos abaixo a expansão que uma moeda sofre ao ser aquecida (você pode clicar no vídeo para acessar o vídeo original no Youtube):
     </p>
 
     <div class="divcentro">
         <figure>
           <a href="https://www.youtube.com/shorts/KJ8uJHedE8E" target="_blank" rel="noopener noreferrer">
-          <video style=width:300px; autoplay muted loop>
-          <source src="https://raw.githubusercontent.com/fisica-basica/paginas-fisica-facin-ufpa/videos/esquentandoMoeda.mp4" type="video/mp4" />
+          <video style=width:400px; autoplay muted loop>
+          <source src="https://raw.githubusercontent.com/fisica-basica/cicta/videos/dilataMoeda3.mp4" type="video/mp4" />
           O seu navegador não suporta a tag de vídeo
           </video>
           </a>
-          <figcaption class="caption" style="display:block; margin:auto;width: 300px;">Dilatação térmica de uma moeda, por @dr.fisica (https://www.youtube.com/shorts/KJ8uJHedE8E).</figcaption>
+          <figcaption class="caption" style="display:block; margin:auto;width:400px;">Dilatação térmica de uma moeda (CICTA/UFPA).</figcaption>
         </figure>
     </div>
 
     <p class="margin100">
+      Da mesma forma que a moeda sem expande ao ser aquecida, ao ser resfriada, seu tamanho diminuirá (contração).
       Podemos então usar este comportamento (expansão ou contração provocadas por variações de temperatura) para medir a temperatura de um corpo, associando, por exemplo, o "tamanho" 
-      (volume, comprimento ou área) do corpo a um determinado valor de temperatura. Assim, para cada temperatura haverá um "tamanho" 
-      correspondente do corpo e vice-versa. Podemos então construir uma "tabela" de correspondência entre temperatura e "tamanho" do corpo, e usar esta tabela para medir a temperatura
+      (volume, comprimento ou área) do corpo a um determinado valor <i>numérico</i> de temperatura. Assim, para cada "tamanho" do corpo haverá um 
+      valor numérico de temperatura. Podemos então construir uma "tabela" de correspondência entre temperatura e "tamanho" do corpo, e usar esta tabela para medir a temperatura
       do corpo e de outros corpos que estejam em <a href="https://www.todamateria.com.br/equilibrio-termico/" target="_blank" rel="noopener noreferrer">equilíbrio térmico</a> com ele.
     </p>
 
@@ -202,13 +261,16 @@
     </div>
 
     <p class="margin100">
-      Obviamente, nossa "escala Real" de temperatura serve apenas para ilustrar o procedimento de construção de uma escala de temperatura. 
-      Na prática, existem escalas de temperatura "oficiais", muito mais precisas e confiáveis, como a escala Celsius, a escala Fahrenheit 
-      e a escala Kelvin.
+      Obviamente, nossa "escalas particulares" de temperatura, acima, servem apenas para ilustrar o procedimento de construção de uma escala de temperatura. 
+      Na prática, existem escalas de temperatura "oficiais", muito mais precisas e confiáveis, como as escalas Celsius, Fahrenheit e Kelvin.
     </p>
 
-    <h4 class="unidade_centro"><span style="color: #FF0000;">Escala de temperatura Celsius:</span></h4>
+    <hr>
+  </section>
 
+  <section>
+    <h3 class="azul_centro">Escala de temperatura Celsius:</h3>
+    
     <p class="margin100">
       A escala celsius é a escala de temperatura mais utilizada no dia-a-dia. Para a "construção" desta escala, vamos inicialmente escolher uma substância
       de referência, cuja volume será associado a uma determinada temperatura, como no caso da moeda, visto acima. 
