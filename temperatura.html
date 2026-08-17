@@ -326,11 +326,11 @@
           </div>
 
           <p>Quando dois corpos são colocados em contato térmico térmico um com o outro (ou seja, permitimos a passagem de calor de um para o outro), dizemos que 
-            estes dois corpos estão em <i>equilíbrio termodinâmico</i> entre si se os parâmetros termodinâmicos dos dois ficam constantes enquanto o tempo passa.            
+            <b>estes corpos estão em <span style="color: red;"><i>equilíbrio termodinâmico</i></span> entre si se os parâmetros termodinâmicos dos dois ficam constantes enquanto o tempo passa.</b>
           </p>
 
           <p>Na simulação abaixo, consideramos novamente o tijolo (Brick) e um recipiente com água (Water). Quando mergulhamos o tijolo na água, 
-            notamos que as temperaturas do tijolo e da água não se alteram. Considerando que os outros parâmetros termodinâmicos do tijolo e da água também não se alterem,
+            notamos que as temperaturas do tijolo e da água não se alteram. Supondo que os outros parâmetros termodinâmicos do tijolo e da água também não se alterem com o tempo,
             então podemos dizer que estes dois corpos estão em equilíbrio térmico entre si.
           </p>
 
@@ -384,9 +384,9 @@
         Então teremos:
       </p>
 
-      <p class="margin100">       
-        Ferro em equilíbrio térmico com água:
-      </p>
+      <div class="divcentro">
+        <p class="margin100">Ferro (corpo <i>A</i>) em equilíbrio térmico com água (corpo <i>B</i>):</p>
+      </div>
 
       <div class="divcentro">
             <figure>
@@ -401,9 +401,9 @@
             </figure>
           </div>
 
-      <p class="margin100">       
-        Tijolo em equilíbrio térmico com água:
-      </p>
+      <div class="divcentro">
+        <p class="margin100">Tijolo (corpo <i>C</i>) em equilíbrio térmico com água (corpo <i>B</i>):</p>
+      </div>
 
       <div class="divcentro">
         <figure>
@@ -418,9 +418,9 @@
         </figure>
       </div>
 
-      <p class="margin100">       
-        Ferro em equilíbrio térmico com tijolo:
-      </p>
+      <div class="divcentro">
+        <p class="margin100">Ferro (corpo <i>A</i>) em equilíbrio térmico com tijolo (corpo <i>C</i>):</p>
+      </div>
 
       <div class="divcentro">
         <figure>
@@ -435,7 +435,7 @@
         </figure>
       </div>
 
-      <p class="margin100">       
+      <p class="margin100">
         Em resumo, podemos dizer que os três corpos estão em equilíbrio térmico entre si:
       </p>
 
@@ -452,16 +452,46 @@
         </figure>
       </div>
 
+      <p class="margin100">
+        No nivel deste material (sem nos aprofundarmos muito na parte teórica), podemos usar a lei zero da termodinâmica para 
+        <b>definir temperatura como sendo o parâmetro termodinâmico que é obrigatoriamente igual em dois sistemas em equilíbrio termodinâmico entre si</b>.
+        Ou seja, se dois sistemas <i>A</i> e <i>B</i> estão em equilíbrio termodinâmico entre si, então a temperatura de <i>A</i> é igual à temperatura de <i>B</i>.
+        Desta forma, os sistemas <i>A</i>, <i>B</i> e <i>C</i> considerados acima terão, todos, a mesma temperatura.        
+      </p>
 
+      <p class="margin100">
+        Vamos considerar, por exemplo, dois sistemas <i>A</i> e <i>B</i> formados por gases monoatômicos ideais. 
+        O sistema <i>A</i> possui pressão \( p_A \), volume \( V_A \) e e numero de mols \( n_A \), 
+        enquanto o sistema <i>B</i> possui pressão \( p_B \), volume \( V_B \) e numero de mols \( n_B \). 
+        Se os dois sistemas estão em equilíbrio termodinâmico entre si, podemos verificar experimentalmente que a razão 
+        \( p_A V_A / n_A \) é sempre igual à razão \( p_B V_B / n_B \), para quaisquer valores destes parâmetros termodinâmicos citados.
+        Assim, poderíamos definir a temperatura \( T \) de um gás monoatômico ideal como sendo a razão \( pV/n \).
+      </p>
 
-
-
-
-
-
-
-
+      <p class="margin100">
+        No entanto, notamos que se \( p_A V_A / n_A \) é igual a \( p_B V_B / n_B \), então também é correto afirmar que a quantidade        
+      </p>
       
+        $$ K \frac{p V}{n} + C $$    
+
+      <p class="margin100">
+        onde \( K \) e \( C \) são constantes arbitrárias, também será igual nos dois sistemas:
+      </p>
+
+      $$K\frac{p_A V_A}{n_A} + C = K\frac{p_B V_B}{n_B} + C$$
+
+      <p class="margin100">
+        Assim, podemos usar a expressão mais geral \( K p V / n + C \) para definir a temperatura de um gás monoatômico ideal.
+        Da mesma forma, outras expressões particulares envolvendo estes parâmetros termodinâmicos serão iguais entre si, nos dois sistemas
+        em equilíbrio termodinâmico considerados. Vemos então que a lei zero da termodinâmica nos permite definir a temperatura de um sistema 
+        como sendo um dos parâmetros termodinâmicos associados ao sistema 
+        (aquele que será o mesmo em dois sistemas em equilíbrio termodinâmico entre si), mas não nos dá uma forma única de definir um valor 
+        numérico para a temperatura.       
+      </p>
+
+      <p class="margin100">
+        A seguir, veremos como podemos definir valores numéricos para a temperatura de um sistema, usando <b>escalas de temperatura</b>.
+      </p>     
 
     <hr>
   </section>
